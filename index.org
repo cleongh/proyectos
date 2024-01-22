@@ -1,0 +1,11 @@
+#+title: Nombre
+#+author: Carlos León
+#+language: es
+
+* Contenido
+
+- [[file:gestion.reveal.org]]
+- [[file:publicar.reveal.org]]
+- [[file:qa.reveal.org]]
+- [[file:recursos.org]]
+- [[file:reportar.org]]

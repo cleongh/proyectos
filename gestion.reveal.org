@@ -1,0 +1,211 @@
+#+TITLE: Gestión de proyectos en GitHub
+#+setupfile: setup.org
+
+
+
+
+* Usar un repositorio para gestión
+
+Los servicios de repositorio =git= permiten hacer la gestión del desarrollo
+
+
+#+REVEAL: split
+
+No son tan potentes como una herramienta dedicada ([[https://www.pivotaltracker.com/][Pivotal Tracker]], por ejemplo), pero se enlazan con el código y permiten tener *un solo repositorio para todo*
+
+** Dos tipos
+
+GitHub tiene ahora mismo dos tipos: un /[[https://es.wikipedia.org/wiki/Kanban][kanban]]/ simple (el "antiguo") y una versión más moderna y potente, que permite mezclar varios repositorios (¡que también tiene /kanban/!)
+
+#+REVEAL: split
+
+#+CAPTION: Una versión visual de las issues, como una tablero
+[[./images/kanban.png]]
+
+#+REVEAL: split
+
+#+CAPTION: O como una lista (con filtros y demás)
+[[./images/lista.png]]
+
+
+* Creación del repositorio
+
+
+#+CAPTION: Un repositorio *tiene que tener una licencia*
+#+attr_html: :width 500
+[[./images/20220116-143200_screenshot.png]]
+
+** Creación del /proyecto/
+
+Los proyectos y los repositorios *son independientes*, aunque se enlazan fácilmente
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:38:44
+[[file:2023-01-19_13-38-44_screenshot.png]]
+
+
+** En el proyecto ponemos nuestras historias de usuario
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:40:42
+#+attr_html: :height 300
+[[file:2023-01-19_13-40-42_screenshot.png]]
+
+** Convertimos las historias en /issues/ para tener información completa
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:44:57
+#+caption: Dentro de la historia de usuario, convertimos es /issue/, nos pedirá un repositorio
+[[file:2023-01-19_13-44-57_screenshot.png]]
+
+
+
+** Creamos los campos para cada variable que queremos controlar
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:41:36
+#+attr_html: :height 300
+[[file:2023-01-19_13-41-36_screenshot.png]]
+
+#+REVEAL: split
+
+Hay que convertir el elemento del proyecto en /issue/ (y asignarle /repo/) para activar las etiquetas
+
+** Establecemos el estado de cada historia
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:42:15
+#+attr_html: :height 300
+[[file:2023-01-19_13-42-15_screenshot.png]]
+
+
+
+** La persona responsable
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:42:43
+#+caption: Sólo *una persona*, y *siempre una* asignada en PR2
+[[file:2023-01-19_13-42-43_screenshot.png]]
+
+** Creamos /sprints/ para el avance
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:43:30
+#+caption: Hay que activar una nueva columna de tipo /iteration/
+#+attr_html: :height 300
+[[file:2023-01-19_13-43-30_screenshot.png]]
+
+* Hitos
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:50:50
+#+caption: Creamos /milestones/ para cada hito
+[[file:2023-01-19_13-50-50_screenshot.png]]
+
+#+REVEAL: split
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:52:33
+#+caption: Es útil poner información del milestone
+[[file:2023-01-19_13-52-33_screenshot.png]]
+
+
+
+
+
+** Asociar historia de usuario (/issue/) a hito (/milestone/)
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:54:21
+#+CAPTION: Para ello, asignaremos el /milestone/ correspondiente a un /issue/
+#+attr_html: :height 300
+[[file:2023-01-19_13-54-21_screenshot.png]]
+
+
+* Listas con marca (/checkboxes/)
+
+
+#+attr_html: :width 600
+#+caption: Podemos hacer listas de comprobación dentro de los comentarios de las /issues/
+[[./images/20220116-143946_screenshot.png]]
+
+#+REVEAL: split
+
+#+begin_example
+Esto estará completado cuando:
+
+- [ ] Se reciba el evento de barra espaciadora
+- [X] El personaje suba
+- [ ] El personaje caiga
+#+end_example
+
+#+REVEAL: split
+
+#+CAPTION: ¡Se pueden poner y quitar las marcas de las listas con cajas haciendo clic!
+[[./images/20220116-144545_screenshot.png]]
+
+
+* Etiquetas
+:PROPERTIES:
+:ID:       3a872edf-0cf2-4eb9-b654-1204ceae107b
+:END:
+
+Las etiquetas son un sistema flexible y razonablemente potente para crear semánticas concretas en nuestro proyecto
+
+#+REVEAL: split
+
+
+
+#+DOWNLOADED: screenshot @ 2023-01-19 13:48:12
+#+caption: Cuando convertimos las historias en /issues/, podemos asignar etiquetas
+[[file:2023-01-19_13-48-12_screenshot.png]]
+
+#+REVEAL: split
+
+No olvidéis poner *una y sólo una* etiqueta a cada issue:
+
+- implementacion
+- arte
+- diseño
+- gestión
+- comunicación
+
+
+#+REVEAL: split
+
+
+
+#+CAPTION: Por ejemplo, podemos crear etiquetas para marcar /bugs/
+[[./images/bug.png]]
+
+** También se pueden crear /epics/
+
+#+CAPTION: Con un código de colores, se ve muy bien
+[[./images/epics.png]]
+
+** Se pueden tener varias etiquetas en una /issue/
+
+[[./images/varias_etiquetas.png]]
+
+#+REVEAL: split
+
+#+CAPTION: Y se puede hacer una búsqueda para ver sólo las historias con una etiqueta concreta
+[[./images/busqueda.png]]
+
+
+
+* Conclusión
+
+- Se puede hacer el 100% del proyecto en un único repositorio (¡también hay wikis!)
+- No es tan potente como herramientas especializadas, pero suele ser más suficiente
+- Es un esquema de desarrollo cada vez más empleado, sobre todo en comunidades grandes
+
+* Ejemplos
+
+- [[https://github.com/orgs/UCM-FDI-DISIA/projects/8][Proyecto de ejemplo]]
+- [[https://github.com/features/issues][Documentación sobre la plataforma de proyectos en GitHub]]
+
+
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# end:

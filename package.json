@@ -1,0 +1,29 @@
+{
+  "name": "proyectos",
+  "version": "1.0.0",
+  "description": "proyectos",
+  "scripts": {
+    "start": "npx parcel index.org --open",
+    "build": "npx parcel build index.org --public-url ./ --dist-dir docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleongh/proyectos.git"
+  },
+  "keywords": [
+    "proyectos",
+    "games"
+  ],
+  "author": "cleon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleongh/proyectos/issues"
+  },
+  "homepage": "https://github.com/cleongh/proyectos#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "reveal.js": "^5.0.2"
+  }
+}

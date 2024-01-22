@@ -1,0 +1,61 @@
+ #+TITLE: Publicar el proyecto en la web
+#+LANGUAGE: es
+#+setupfile: setup.org
+
+* Qué publicar
+
+Es necesario hacer una página *pública* del proyecto
+
+Esta página no tiene documentación técnica, sino que es nuestra comunicación del proyecto
+
+* Cómo empaquetar
+
+Hay que alojar el proyecto en un sitio web
+
+Todos, a través del [[https://docs.github.com/en/pages/getting-started-with-github-pages][servicio de páginas públicas en GitHub]] podéis simplemente hacer un /commit/ del proyecto y servir la URL
+
+#+REVEAL: split
+
+Alternativas:
+
+1. Sólo tenéis que crear una rama =main= en un repositorio, y tener ahí el archivo =index.html= apropiado (los servidores web usan el documento =index.html= como el servido por defecto)
+2. Tener nuestra versión de producción en una carpeta =docs= de =main= (tenéis que configurarlo en "Settings")
+3. Tener nuestra versión de producción en una rama =gh-pages= (que podéis/deberíais crear como [[https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/][orphan branch]])
+
+#+REVEAL: split
+
+Una ventaja de hacerlo desde =main= es que no hay que hacer nada más que desarrollar y hacer =push=, y servimos los mismos archivos de desarrollo
+
+En general *esto no es idóneo*, pero acelera y simplifica el proceso
+
+#+REVEAL: split
+
+Una ventaja de hacerlo desde =docs= o desde =gh-pages= es que, si el repositorio es privado, sólo se servirá/será público lo de esa carpeta
+
+** Rutas
+
+Tened cuidado con los recursos:
+
+- Referenciadlos con *rutas relativas* a vuestros =.html= y =.js= (=imgs/imagen.png=), en vez de **rutas absolutas** (=http://mi.ruta.cambiante/imgs/imagen.png=)
+- Aseguraos de que están cargados antes de iniciar su uso
+- Aseguraos de que están siempre disponibles
+
+
+* Página en la que incluir el proyecto
+
+El archivo =index.html= tiene que ser una página presentable y "bonita"
+
+#+REVEAL: split
+
+Tiene que tener el título del proyecto, un resumen de la idea el juego, enlaces pertinentes, instrucciones y cualquier información adicional relevante
+
+#+REVEAL: split
+
+Además, hay que poner la licencia del mismo e información de la asignatura
+
+** Publicación del repositorio
+
+El respositorio es público y pertenece a una /Organización GitHub/ de la Facultad
+
+*No pongáis ninguna información personal*
+
