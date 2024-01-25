@@ -137,7 +137,3 @@ Pero, lo más importante...
 - ¿Qué cambios se han hecho?
 - ¿Qué problemas/limitaciones se han descubierto?
 
-# Local variables:
-# after-save-hook: org-re-reveal-export-to-html
-# end:
-
