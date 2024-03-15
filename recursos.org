@@ -4,6 +4,7 @@
 
 - Dibujo
   - [[https://libresprite.github.io/][LibreSprite]]
+  - [[https://github.com/Orama-Interactive/Pixelorama][Pixelorama]]
   - [[https://krita.org/][Krita]]
 - Recursos gráficos gratuitos
   - [[https://opengameart.org/][OpenGameArt]]
@@ -17,6 +18,3 @@
 - Edición de audio
   - [[https://www.audacityteam.org/][Audacity]]
 
-# Local variables:
-# after-save-hook: org-html-export-to-html
-# end:
