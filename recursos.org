@@ -11,10 +11,17 @@
   - [[https://itch.io/game-assets][Assets en itch.io]]
 - Recursos de sonido gratuitos
   - [[https://freesound.org/][Freesound]]
+  - [[https://soundbible.com/][SoundBible]]
+  - [[https://www.newgrounds.com/audio][Newgrounds Audio]]
+  - [[https://freemusicarchive.org/home][Free Music Archive]]
+- Generadores de audio
+  - [[https://sfxr.me/][jsfxr]]
+  - [[https://sfbgames.itch.io/chiptone][Chiptone]]
+  - [[https://keithclark.github.io/ZzFXM/][ZzFXM]]
+  - [[https://pernyblom.github.io/abundant-music/index.html][Abundant-music]]
 - Edición UML
   - [[https://gaphor.org/][Gaphor]]
 - Edición de mapas
   - [[https://www.mapeditor.org/][Tiled]]
 - Edición de audio
   - [[https://www.audacityteam.org/][Audacity]]
-
