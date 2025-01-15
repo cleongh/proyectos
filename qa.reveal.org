@@ -1,9 +1,9 @@
 #+title: Proceso de pruebas para los proyectos
 #+setupfile: setup.org
 
-* QA en el proyecto
+* Playtest en el proyecto
 
-Es *necesario y obligatorio* hacer un proceso de QA en el proyecto.
+Es *necesario y obligatorio* hacer un proceso de playtest en el proyecto.
 
 #+REVEAL: split
 
@@ -133,7 +133,6 @@ Pero, lo más importante...
 
 ** Uso del informe
 
-- ¿Cómo se ha aplicado la información de QA al proyecto?
+- ¿Cómo se ha aplicado la información de playtest al proyecto?
 - ¿Qué cambios se han hecho?
 - ¿Qué problemas/limitaciones se han descubierto?
-
