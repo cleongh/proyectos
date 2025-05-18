@@ -23,5 +23,6 @@
   - [[https://gaphor.org/][Gaphor]]
 - Edición de mapas
   - [[https://www.mapeditor.org/][Tiled]]
+  - [[https://ldtk.io/][LDtk]]
 - Edición de audio
   - [[https://www.audacityteam.org/][Audacity]]
