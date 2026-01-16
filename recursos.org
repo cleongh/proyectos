@@ -14,6 +14,7 @@
   - [[https://soundbible.com/][SoundBible]]
   - [[https://www.newgrounds.com/audio][Newgrounds Audio]]
   - [[https://freemusicarchive.org/home][Free Music Archive]]
+  - [[https://soundimage.org/][Sound Image]]
 - Generadores de audio
   - [[https://sfxr.me/][jsfxr]]
   - [[https://sfbgames.itch.io/chiptone][Chiptone]]
