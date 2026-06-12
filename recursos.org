@@ -4,6 +4,7 @@
 
 - Dibujo
   - [[https://libresprite.github.io/][LibreSprite]]
+  - [[https://pixieditor.net/][PixiEditor]]
   - [[https://github.com/Orama-Interactive/Pixelorama][Pixelorama]]
   - [[https://krita.org/][Krita]]
 - Recursos gráficos gratuitos
