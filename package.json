@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/cleongh/proyectos#readme",
   "devDependencies": {
-    "parcel": "^2.10.3"
+    "parcel": "^2.16.4"
   },
   "dependencies": {
-    "reveal.js": "^5.0.2"
+    "reveal.js": "^6.0.1"
   }
 }

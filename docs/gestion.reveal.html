@@ -1,7 +1,298 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Gestión de proyectos en GitHub</title><meta name="author" content="Carlos León"><style>.underline{text-decoration:underline}</style><link rel="stylesheet" href="gestion.reveal.1a89fae1.css"><link rel="stylesheet" href="gestion.reveal.bf86a54d.css" id="theme"><link rel="stylesheet" href="gestion.reveal.219e18d2.css"><link rel="stylesheet" href="gestion.reveal.0c55f6f6.css"></head><body> <div class="reveal"> <div class="slides"> <section id="sec-title-slide"> <h1 class="title">Gestión de proyectos en GitHub</h1><h2 class="author">Carlos León</h2><h2 class="email"><a href="mailto:cleon@ucm.es">cleon@ucm.es</a></h2> </section> <section> <section id="slide-org6c17892"> <h2 id="org6c17892">Usar un repositorio para gestión</h2> <p> Los servicios de repositorio <code>git</code> permiten hacer la gestión del desarrollo </p> </section> <section> <p> No son tan potentes como una herramienta dedicada (<a href="https://www.pivotaltracker.com/">Pivotal Tracker</a>, por ejemplo), pero se enlazan con el código y permiten tener <b>un solo repositorio para todo</b> </p> </section> <section id="slide-org4189273"> <h3 id="org4189273">Dos tipos</h3> <p> GitHub tiene ahora mismo dos tipos: un <i><a href="https://es.wikipedia.org/wiki/Kanban">kanban</a></i> simple (el &laquo;antiguo&raquo;) y una versión más moderna y potente, que permite mezclar varios repositorios (¡que también tiene <i>kanban</i>!) </p> </section> <section> <div id="org70823c1" class="figure"> <p><img src="kanban.cdd68ec0.png" alt="kanban.png"> </p> <p><span class="figure-number">Figura 1: </span>Una versión visual de las issues, como una tablero</p> </div> </section> <section> <div id="orgd7f4fcc" class="figure"> <p><img src="lista.0654bc0b.png" alt="lista.png"> </p> <p><span class="figure-number">Figura 2: </span>O como una lista (con filtros y demás)</p> </div> </section> </section> <section> <section id="slide-org2a3656a"> <h2 id="org2a3656a">Creación del repositorio</h2> <div id="orgff53dc0" class="figure"> <p><img src="20220116-143200_screenshot.73aca866.png" alt="20220116-143200_screenshot.png" width="500"> </p> <p><span class="figure-number">Figura 3: </span>Un repositorio <b>tiene que tener una licencia</b></p> </div> </section> <section id="slide-org1327add"> <h3 id="org1327add">Creación del <i>proyecto</i></h3> <p> Los proyectos y los repositorios <b>son independientes</b>, aunque se enlazan fácilmente </p> <div id="orgdbd6906" class="figure"> <p><img src="2023-01-19_13-38-44_screenshot.7bac80bf.png" alt="2023-01-19_13-38-44_screenshot.png"> </p> </div> </section> <section id="slide-orgf463a56"> <h3 id="orgf463a56">En el proyecto ponemos nuestras historias de usuario</h3> <div id="org2056e74" class="figure"> <p><img src="2023-01-19_13-40-42_screenshot.02744618.png" alt="2023-01-19_13-40-42_screenshot.png" height="300"> </p> </div> </section> <section id="slide-org9a1ecdb"> <h3 id="org9a1ecdb">Convertimos las historias en <i>issues</i> para tener información completa</h3> <div id="org7982e71" class="figure"> <p><img src="2023-01-19_13-44-57_screenshot.6ff5ca0a.png" alt="2023-01-19_13-44-57_screenshot.png"> </p> <p><span class="figure-number">Figura 4: </span>Dentro de la historia de usuario, convertimos es <i>issue</i>, nos pedirá un repositorio</p> </div> </section> <section id="slide-org83ee749"> <h3 id="org83ee749">Creamos los campos para cada variable que queremos controlar</h3> <div id="org26d46fa" class="figure"> <p><img src="2023-01-19_13-41-36_screenshot.02a3ba1b.png" alt="2023-01-19_13-41-36_screenshot.png" height="300"> </p> </div> </section> <section> <p> Hay que convertir el elemento del proyecto en <i>issue</i> (y asignarle <i>repo</i>) para activar las etiquetas </p> </section> <section id="slide-org4bfd459"> <h3 id="org4bfd459">Establecemos el estado de cada historia</h3> <div id="orgec07c0f" class="figure"> <p><img src="2023-01-19_13-42-15_screenshot.33f3d95c.png" alt="2023-01-19_13-42-15_screenshot.png" height="300"> </p> </div> </section> <section id="slide-org169e34e"> <h3 id="org169e34e">La persona responsable</h3> <div id="org9ac44c1" class="figure"> <p><img src="2023-01-19_13-42-43_screenshot.b1dac6fe.png" alt="2023-01-19_13-42-43_screenshot.png"> </p> <p><span class="figure-number">Figura 5: </span>Sólo <b>una persona</b>, y <b>siempre una</b> asignada en PR2</p> </div> </section> <section id="slide-org8cc7e60"> <h3 id="org8cc7e60">Creamos <i>sprints</i> para el avance</h3> <div id="orgcb00a3b" class="figure"> <p><img src="2023-01-19_13-43-30_screenshot.ea28f2c8.png" alt="2023-01-19_13-43-30_screenshot.png" height="300"> </p> <p><span class="figure-number">Figura 6: </span>Hay que activar una nueva columna de tipo <i>iteration</i></p> </div> </section> </section> <section> <section id="slide-org589293e"> <h2 id="org589293e">Hitos</h2> <div id="orga3a418b" class="figure"> <p><img src="2023-01-19_13-50-50_screenshot.792e18f9.png" alt="2023-01-19_13-50-50_screenshot.png"> </p> <p><span class="figure-number">Figura 7: </span>Creamos <i>milestones</i> para cada hito</p> </div> </section> <section> <div id="org85a7eba" class="figure"> <p><img src="2023-01-19_13-52-33_screenshot.7173e0e3.png" alt="2023-01-19_13-52-33_screenshot.png"> </p> <p><span class="figure-number">Figura 8: </span>Es útil poner información del milestone</p> </div> </section> <section id="slide-org74e09cf"> <h3 id="org74e09cf">Asociar historia de usuario (<i>issue</i>) a hito (<i>milestone</i>)</h3> <div id="org85b9c7b" class="figure"> <p><img src="2023-01-19_13-54-21_screenshot.e5a5b6e4.png" alt="2023-01-19_13-54-21_screenshot.png" height="300"> </p> <p><span class="figure-number">Figura 9: </span>Para ello, asignaremos el <i>milestone</i> correspondiente a un <i>issue</i></p> </div> </section> </section> <section> <section id="slide-orgbf6e2a0"> <h2 id="orgbf6e2a0">Listas con marca (<i>checkboxes</i>)</h2> <div id="org8640e73" class="figure"> <p><img src="20220116-143946_screenshot.9a4fc0a9.png" alt="20220116-143946_screenshot.png" width="600"> </p> <p><span class="figure-number">Figura 10: </span>Podemos hacer listas de comprobación dentro de los comentarios de las <i>issues</i></p> </div> </section> <section> <pre class="example" id="org8da590d">
-Esto estará completado cuando:
+<!DOCTYPE html><html lang=es><meta charset=utf-8><title>Gestión de proyectos en GitHub</title><meta name=author content="Carlos León"><style>.underline{text-decoration:underline}</style><link rel=stylesheet href=gestion.reveal.3d0911bc.css><link rel=stylesheet href=gestion.reveal.7097eec4.css id=theme><link rel=stylesheet href=gestion.reveal.219e18d2.css><link rel=stylesheet href=gestion.reveal.228c55b8.css><body>
+<div class=reveal>
+<div class=slides>
+<section id=sec-title-slide>
+<h1 class=title>Gestión de proyectos en GitHub</h1><h2 class=author>Carlos León</h2><h2 class=email><a href=mailto:cleon@ucm.es>cleon@ucm.es</a></h2>
+</section>
+<section>
+<section id=slide-org1669f31>
+<h2 id=org1669f31>Usar un repositorio para gestión</h2>
+<p>
+Los servicios de repositorio <code>git</code> permiten hacer la gestión del desarrollo
+</p>
+
+
+</section>
+<section>
+
+<p>
+No son tan potentes como una herramienta dedicada (<a href=https://www.pivotaltracker.com/>Pivotal Tracker</a>, por ejemplo), pero se enlazan con el código y permiten tener <b>un solo repositorio para todo</b>
+</p>
+</section>
+<section id=slide-org60aced2>
+<h3 id=org60aced2>Dos tipos</h3>
+<p>
+GitHub tiene ahora mismo dos tipos: un <i><a href=https://es.wikipedia.org/wiki/Kanban>kanban</a></i> simple (el «antiguo») y una versión más moderna y potente, que permite mezclar varios repositorios (¡que también tiene <i>kanban</i>!)
+</p>
+
+</section>
+<section>
+
+
+<div id=orgd4ed51d class=figure>
+<p><img src=kanban.6428f316.png alt=kanban.png>
+</p>
+<p><span class=figure-number>Figura 1: </span>Una versión visual de las issues, como una tablero</p>
+</div>
+
+</section>
+<section>
+
+
+<div id=org93440f6 class=figure>
+<p><img src=lista.d21aba52.png alt=lista.png>
+</p>
+<p><span class=figure-number>Figura 2: </span>O como una lista (con filtros y demás)</p>
+</div>
+</section>
+</section>
+<section>
+<section id=slide-orge116156>
+<h2 id=orge116156>Creación del repositorio</h2>
+
+<div id=org15c7bba class=figure>
+<p><img src=20220116-143200_screenshot.ebb7bed5.png alt=20220116-143200_screenshot.png width=500>
+</p>
+<p><span class=figure-number>Figura 3: </span>Un repositorio <b>tiene que tener una licencia</b></p>
+</div>
+</section>
+<section id=slide-org6a9d09b>
+<h3 id=org6a9d09b>Creación del <i>proyecto</i></h3>
+<p>
+Los proyectos y los repositorios <b>son independientes</b>, aunque se enlazan fácilmente
+</p>
+
+
+
+<div id=orgb83b345 class=figure>
+<p><img src=2023-01-19_13-38-44_screenshot.813d4fe5.png alt=2023-01-19_13-38-44_screenshot.png>
+</p>
+</div>
+</section>
+<section id=slide-orgee46ed5>
+<h3 id=orgee46ed5>En el proyecto ponemos nuestras historias de usuario</h3>
+
+<div id=orgd254d4b class=figure>
+<p><img src=2023-01-19_13-40-42_screenshot.5b994df3.png alt=2023-01-19_13-40-42_screenshot.png height=300>
+</p>
+</div>
+</section>
+<section id=slide-orgc659ebf>
+<h3 id=orgc659ebf>Convertimos las historias en <i>issues</i> para tener información completa</h3>
+
+<div id=orga8d2edd class=figure>
+<p><img src=2023-01-19_13-44-57_screenshot.2fb76e74.png alt=2023-01-19_13-44-57_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 4: </span>Dentro de la historia de usuario, convertimos es <i>issue</i>, nos pedirá un repositorio</p>
+</div>
+</section>
+<section id=slide-orgd25798a>
+<h3 id=orgd25798a>Creamos los campos para cada variable que queremos controlar</h3>
+
+<div id=org9429710 class=figure>
+<p><img src=2023-01-19_13-41-36_screenshot.2620c631.png alt=2023-01-19_13-41-36_screenshot.png height=300>
+</p>
+</div>
+
+</section>
+<section>
+
+<p>
+Hay que convertir el elemento del proyecto en <i>issue</i> (y asignarle <i>repo</i>) para activar las etiquetas
+</p>
+</section>
+<section id=slide-org2e9fad1>
+<h3 id=org2e9fad1>Establecemos el estado de cada historia</h3>
+
+<div id=orga886577 class=figure>
+<p><img src=2023-01-19_13-42-15_screenshot.eae979c0.png alt=2023-01-19_13-42-15_screenshot.png height=300>
+</p>
+</div>
+</section>
+<section id=slide-orgd3a16e8>
+<h3 id=orgd3a16e8>La persona responsable</h3>
+
+<div id=orga38ecc7 class=figure>
+<p><img src=2023-01-19_13-42-43_screenshot.4abe1f67.png alt=2023-01-19_13-42-43_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 5: </span>Sólo <b>una persona</b>, y <b>siempre una</b> asignada en PR2</p>
+</div>
+</section>
+<section id=slide-org7316ab6>
+<h3 id=org7316ab6>Creamos <i>sprints</i> para el avance</h3>
+
+<div id=org0a8bfe8 class=figure>
+<p><img src=2023-01-19_13-43-30_screenshot.b348c277.png alt=2023-01-19_13-43-30_screenshot.png height=300>
+</p>
+<p><span class=figure-number>Figura 6: </span>Hay que activar una nueva columna de tipo <i>iteration</i></p>
+</div>
+</section>
+</section>
+<section>
+<section id=slide-orgad7770d>
+<h2 id=orgad7770d>Hitos</h2>
+
+<div id=org025e932 class=figure>
+<p><img src=2023-01-19_13-50-50_screenshot.87b5f148.png alt=2023-01-19_13-50-50_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 7: </span>Creamos <i>milestones</i> para cada hito</p>
+</div>
+
+</section>
+<section>
+
+
+
+<div id=org7e8d844 class=figure>
+<p><img src=2023-01-19_13-52-33_screenshot.e6614d5c.png alt=2023-01-19_13-52-33_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 8: </span>Es útil poner información del milestone</p>
+</div>
+</section>
+<section id=slide-orge4e60df>
+<h3 id=orge4e60df>Asociar historia de usuario (<i>issue</i>) a hito (<i>milestone</i>)</h3>
+
+<div id=org5c8803a class=figure>
+<p><img src=2023-01-19_13-54-21_screenshot.e0111ced.png alt=2023-01-19_13-54-21_screenshot.png height=300>
+</p>
+<p><span class=figure-number>Figura 9: </span>Para ello, asignaremos el <i>milestone</i> correspondiente a un <i>issue</i></p>
+</div>
+</section>
+</section>
+<section>
+<section id=slide-org0a99140>
+<h2 id=org0a99140>Listas con marca (<i>checkboxes</i>)</h2>
+
+<div id=orge8daa4e class=figure>
+<p><img src=20220116-143946_screenshot.879add6e.png alt=20220116-143946_screenshot.png width=600>
+</p>
+<p><span class=figure-number>Figura 10: </span>Podemos hacer listas de comprobación dentro de los comentarios de las <i>issues</i></p>
+</div>
+
+</section>
+<section>
+
+<pre class=example id=orga2bb4c8>Esto estará completado cuando:
 
 - [ ] Se reciba el evento de barra espaciadora
 - [X] El personaje suba
 - [ ] El personaje caiga
-</pre> </section> <section> <div id="orgec8827a" class="figure"> <p><img src="20220116-144545_screenshot.25d4db39.png" alt="20220116-144545_screenshot.png"> </p> <p><span class="figure-number">Figura 11: </span>¡Se pueden poner y quitar las marcas de las listas con cajas haciendo clic!</p> </div> </section> </section> <section> <section id="slide-orgc0b3be7"> <h2 id="orgc0b3be7">Etiquetas</h2> <p> Las etiquetas son un sistema flexible y razonablemente potente para crear semánticas concretas en nuestro proyecto </p> </section> <section> <div id="org46945cf" class="figure"> <p><img src="2023-01-19_13-48-12_screenshot.f5695dcf.png" alt="2023-01-19_13-48-12_screenshot.png"> </p> <p><span class="figure-number">Figura 12: </span>Cuando convertimos las historias en <i>issues</i>, podemos asignar etiquetas</p> </div> </section> <section> <p> No olvidéis poner <b>una y sólo una</b> etiqueta a cada issue: </p> <ul> <li>implementacion</li> <li>arte</li> <li>diseño</li> <li>gestión</li> <li>comunicación</li> </ul> </section> <section> <div id="org2280650" class="figure"> <p><img src="bug.2487dcbc.png" alt="bug.png"> </p> <p><span class="figure-number">Figura 13: </span>Por ejemplo, podemos crear etiquetas para marcar <i>bugs</i></p> </div> </section> <section id="slide-orga4b3809"> <h3 id="orga4b3809">También se pueden crear <i>epics</i></h3> <div id="org9b0e9b3" class="figure"> <p><img src="epics.9a24df66.png" alt="epics.png"> </p> <p><span class="figure-number">Figura 14: </span>Con un código de colores, se ve muy bien</p> </div> </section> <section id="slide-org56c7109"> <h3 id="org56c7109">Se pueden tener varias etiquetas en una <i>issue</i></h3> <div id="orgc91ee34" class="figure"> <p><img src="varias_etiquetas.b63e74f2.png" alt="varias_etiquetas.png"> </p> </div> </section> <section> <div id="orgfb05690" class="figure"> <p><img src="busqueda.d17a756b.png" alt="busqueda.png"> </p> <p><span class="figure-number">Figura 15: </span>Y se puede hacer una búsqueda para ver sólo las historias con una etiqueta concreta</p> </div> </section> </section> <section> <section id="slide-org2f3a4f5"> <h2 id="org2f3a4f5">Conclusión</h2> <ul> <li>Se puede hacer el 100% del proyecto en un único repositorio (¡también hay wikis!)</li> <li>No es tan potente como herramientas especializadas, pero suele ser más suficiente</li> <li>Es un esquema de desarrollo cada vez más empleado, sobre todo en comunidades grandes</li> </ul> </section> </section> <section> <section id="slide-org2c6fadb"> <h2 id="org2c6fadb">Ejemplos</h2> <ul> <li><a href="https://github.com/orgs/UCM-FDI-DISIA/projects/8">Proyecto de ejemplo</a></li> <li><a href="https://github.com/features/issues">Documentación sobre la plataforma de proyectos en GitHub</a></li> </ul> </section> </section> </div> </div> <script src="gestion.reveal.73586730.js"></script> <script src="gestion.reveal.5dd0c6e9.js"></script> <script src="gestion.reveal.bfa4f92d.js"></script> <script src="gestion.reveal.43da5038.js"></script> <script>Reveal.initialize({controls:!0,progress:!0,history:!0,center:!0,slideNumber:"c",rollingLinks:!1,keyboard:!0,mouseWheel:!1,fragmentInURL:!1,hashOneBasedIndex:!1,pdfSeparateFragments:!0,overview:!0,transition:"none",transitionSpeed:"default",plugins:[RevealSearch,RevealHighlight,RevealZoom],dependencies:[]});</script> </body></html>
+</pre>
+
+</section>
+<section>
+
+
+<div id=orga074359 class=figure>
+<p><img src=20220116-144545_screenshot.d1d89a75.png alt=20220116-144545_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 11: </span>¡Se pueden poner y quitar las marcas de las listas con cajas haciendo clic!</p>
+</div>
+</section>
+</section>
+<section>
+<section id=slide-org410b418>
+<h2 id=org410b418>Etiquetas</h2>
+<p>
+Las etiquetas son un sistema flexible y razonablemente potente para crear semánticas concretas en nuestro proyecto
+</p>
+
+</section>
+<section>
+
+
+
+
+<div id=org876d10a class=figure>
+<p><img src=2023-01-19_13-48-12_screenshot.dcad254c.png alt=2023-01-19_13-48-12_screenshot.png>
+</p>
+<p><span class=figure-number>Figura 12: </span>Cuando convertimos las historias en <i>issues</i>, podemos asignar etiquetas</p>
+</div>
+
+</section>
+<section>
+
+<p>
+No olvidéis poner <b>una y sólo una</b> etiqueta a cada issue:
+</p>
+
+<ul>
+<li>implementacion</li>
+<li>arte</li>
+<li>diseño</li>
+<li>gestión</li>
+<li>comunicación</li>
+
+</ul>
+
+
+</section>
+<section>
+
+
+
+
+<div id=org9c011aa class=figure>
+<p><img src=bug.194dfe80.png alt=bug.png>
+</p>
+<p><span class=figure-number>Figura 13: </span>Por ejemplo, podemos crear etiquetas para marcar <i>bugs</i></p>
+</div>
+</section>
+<section id=slide-orgcb67d1f>
+<h3 id=orgcb67d1f>También se pueden crear <i>epics</i></h3>
+
+<div id=org3d790db class=figure>
+<p><img src=epics.eebc90bc.png alt=epics.png>
+</p>
+<p><span class=figure-number>Figura 14: </span>Con un código de colores, se ve muy bien</p>
+</div>
+</section>
+<section id=slide-org344db0a>
+<h3 id=org344db0a>Se pueden tener varias etiquetas en una <i>issue</i></h3>
+
+<div id=orge95cf4f class=figure>
+<p><img src=varias_etiquetas.c316705d.png alt=varias_etiquetas.png>
+</p>
+</div>
+
+</section>
+<section>
+
+
+<div id=org096c55f class=figure>
+<p><img src=busqueda.ad70e76a.png alt=busqueda.png>
+</p>
+<p><span class=figure-number>Figura 15: </span>Y se puede hacer una búsqueda para ver sólo las historias con una etiqueta concreta</p>
+</div>
+</section>
+</section>
+<section>
+<section id=slide-org6dee35d>
+<h2 id=org6dee35d>Conclusión</h2>
+<ul>
+<li>Se puede hacer el 100% del proyecto en un único repositorio (¡también hay wikis!)</li>
+<li>No es tan potente como herramientas especializadas, pero suele ser más suficiente</li>
+<li>Es un esquema de desarrollo cada vez más empleado, sobre todo en comunidades grandes</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id=slide-org0f3dd78>
+<h2 id=org0f3dd78>Ejemplos</h2>
+<ul>
+<li><a href=https://github.com/orgs/UCM-FDI-DISIA/projects/8>Proyecto de ejemplo</a></li>
+<li><a href=https://github.com/features/issues>Documentación sobre la plataforma de proyectos en GitHub</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src=gestion.reveal.59aa93c0.js></script>
+<script src=gestion.reveal.36c3c7d4.js></script>
+<script src=gestion.reveal.c6cd0269.js></script>
+<script src=gestion.reveal.1245b774.js></script>
+<script>Reveal.initialize({controls:!0,progress:!0,history:!0,center:!0,slideNumber:"c",rollingLinks:!1,keyboard:!0,mouseWheel:!1,fragmentInURL:!1,hashOneBasedIndex:!1,pdfSeparateFragments:!0,overview:!0,transition:"none",transitionSpeed:"default",plugins:[RevealSearch,RevealHighlight,RevealZoom],dependencies:[]});</script>
+
+
